@@ -1,0 +1,34 @@
+body{
+    padding: 1% 5%;
+    background-color: rgb(246, 224, 198);
+}
+input{
+    margin: 5px;
+}
+h1{
+    text-align: center;
+}
+h5, h6{
+    margin: 0%;
+    font-size: 100%;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+
+a.rollover {
+    background: url(1.jpg);
+    display: block; 
+    width: 1000px;
+    height: 930px; 
+}
+a.rollover:hover {
+    background: url(2.jpg);
+}
+
+@media screen and (max-width: 800px){
+    .link{
+        flex-direction: column;
+    }
+}

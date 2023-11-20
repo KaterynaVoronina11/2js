@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="7.css">
+    <script type="text/javascript" src="7.js"></script>
+    <title>JS№2</title>
+</head>
+<body>
+    <header>
+		<div class="tittle">
+			<h1>Лабораторна робота №7</h1>
+			<h3>Студентки групи АнД - 31<br>Вороніної Катерини</h3>
+		</div>
+        <div class="link">
+        
+            <a href="../лаб 6/6.html">Лабораторна робота №1</a>
+    
+            <a href="index.html">Лабораторна робота №2</a>
+        </div>
+		<div>
+			<h3>Завдання на лабораторну</h3>
+        </div>
+        <div>
+            
+            <p>
+                На Вашій сторінці є поле введення. При наведенні на нього
+                мишки вивести додаткову інформацію про це поле.
+                Ввести № квартири (з клавіатури), № під’їзду і поверх (поля
+                вводу). У будинку 3 під‘їзди, 9 поверхів і 108 квартир.
+                Проаналізувати правильність введення даних і видати відповідне
+                повідомлення.
+            </p>
+        </div>
+    </header>
+    <div>
+        Введіть № квартири:
+        <input type="text" id="apartmentNumber" oninput="validateInput()">
+        <div id="tooltipText"></div>
+    </div>
+    
+<div>
+    Введіть № під’їзду:
+    <input title="Введіть значення, пораховані щойно або власні значення"
+    type="number" 
+    id="entranceNumber" 
+    
+    >
+</div>
+<div>
+     Введіть № поверху: 
+    <input title="Введіть значення, пораховані щойно або власні значення"
+     type="number"
+      id="floorNumber" 
+
+      >
+</div>
+
+</body>
+</html>
