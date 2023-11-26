@@ -1,7 +1,5 @@
 
 
-
-
 function validateInput() {
     var apartmentNumberInput = document.getElementById('apartmentNumber');
     var tooltipText = document.getElementById('tooltipText');

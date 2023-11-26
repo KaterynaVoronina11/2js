@@ -1,34 +1,10 @@
+
 body{
-    padding: 1% 5%;
-    background-color: rgb(246, 224, 198);
+    background-color:blanchedalmond;
+    width:100%;
+    height: 100%;
+    color:blueviolet;
 }
-input{
-    margin: 5px;
-}
-h1{
-    text-align: center;
-}
-h5, h6{
-    margin: 0%;
-    font-size: 100%;
-}
-.link{
-    display: flex;
-    justify-content: space-between;
-}
-
-a.rollover {
-    background: url(1.jpg);
-    display: block; 
-    width: 1000px;
-    height: 930px; 
-}
-a.rollover:hover {
-    background: url(2.jpg);
-}
-
-@media screen and (max-width: 800px){
-    .link{
-        flex-direction: column;
-    }
+h1, h2, div{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
